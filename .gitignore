@@ -1,0 +1,36 @@
+# Build output
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# IDE ca nhan
+.vscode/
+.idea/
+*.launch
+.settings/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Keil MDK
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.axf
+*.htm
+*.lnp
+*.crf
+*.scvd
+JLinkLog.txt
